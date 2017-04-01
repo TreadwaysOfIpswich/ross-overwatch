@@ -98,4 +98,11 @@ background-clip: padding-box;
 .Reaper .list{
 	background-image: -webkit-linear-gradient(white,purple); 
 }
-
+.Lucio {
+	color:darkgreen;
+	background: url("https://s-media-cache-ak0.pinimg.com/originals/cd/70/da/cd70dac62b6c0e00f635d3c6f7af3538.jpg") no-repeat center bottom;
+  background-clip: padding-box;
+	}
+	.Lucio .list{
+		background-image: -webkit-linear-gradient(red,blue);
+	}
