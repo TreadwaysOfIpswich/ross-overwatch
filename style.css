@@ -5,12 +5,13 @@ body {
 }
 
 @font-face {
-font-family: bignoodletitling;
+	font-family: bignoodletitling;
 	src: url('assets/bignoodletitling/big_noodle_titling.ttf');
 }
 
 * {
   box-sizing: border-box;
+	font-family: bignoodletitling;
 }
 
 /*{
