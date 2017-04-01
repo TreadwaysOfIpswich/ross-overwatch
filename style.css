@@ -1,0 +1,92 @@
+body {
+	background: url("assets/58686_overwatch.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+@font-face {
+font-family: bignoodletitling;
+	src: url('assets/bignoodletitling/big_noodle_titling.ttf');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*{
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}*/
+
+h1 {
+	font-size:50px;
+	text-align: center;
+}
+div.p1 {
+     font-size:25px;
+	 font-weight:bold;
+	 text-align: center;
+}
+div.p2 {
+   font-size:25px;
+   font-weight:bold;
+   text-align: center;
+}
+
+.characters {
+	text-align: center;
+}
+
+.character {
+		display: inline-block;
+	  position: relative;
+	  top: 20px;
+		font-weight:bold;
+	  font-size:30px;
+	  border-style:solid;
+	  border-width:3px;
+	  border-radius:10px;
+	  margin: auto;
+	  width: 600px;
+	  height: 600px;
+	  padding: 30px;
+	  background-size: cover;
+}
+.list {
+  font-weight:normal;
+  font-size:20px;
+}
+.img {
+	position: relative;
+	/*top: 50px;*/
+	/*left: 200px;*/
+}
+
+.dva {
+	color: fuchsia;
+	background: url("http://i.imgur.com/HsbBPmM.jpg") no-repeat center bottom;
+	background-clip: padding-box;
+	
+	
+}
+.dva .list {
+	background-image: -webkit-linear-gradient(#00008B, black);
+}
+
+.Soldier76 {
+	color: midnightblue;
+	background: url("http://cdn.mos.cms.futurecdn.net/gaoQFbxd57e466VUg4KiVm.jpg") no-repeat center bottom;
+	background-clip: padding-box;
+}
+.Soldier76 .list {
+	background-image: -webkit-linear-gradient(#8B0000,black);
+}
+
+.Winston {
+	color: darkorange;
+	background: url("http://www.owfire.com/images/maps/kings-row-4.jpg") no-repeat center bottom;
+	background-clip: padding-box;
+}
+.Winston .list {
+	background-image: -webkit-linear-gradient(fuchsia,black);
+}
+
