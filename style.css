@@ -106,3 +106,11 @@ background-clip: padding-box;
 	.Lucio .list{
 		background-image: -webkit-linear-gradient(red,blue);
 	}
+.Mercy{
+	color: darkmagenta;
+ background: url("https://s-media-cache-ak0.pinimg.com/originals/1b/b3/dc/1bb3dcf659df4b7b56e10e66804e8f19.jpg");
+ background-clip: padding-box;
+}
+.Mercy .list {
+	background-image: -webkit-linear-gradient(black,gold)
+}
