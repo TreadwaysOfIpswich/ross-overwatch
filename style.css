@@ -88,6 +88,14 @@ div.p2 {
 	background-clip: padding-box;
 }
 .Winston .list {
-	background-image: -webkit-linear-gradient(fuchsia,black);
+	background-image: -webkit-linear-gradient(darkgreen,black);
+}
+.Reaper {
+color: black;
+background:url("https://blzgdapipro-a.akamaihd.net/media/screenshot/volskaya-screenshot-004.jpg") no-repeat center bottom;
+background-clip: padding-box;
+}
+.Reaper .list{
+	background-image: -webkit-linear-gradient(white,purple); 
 }
 
