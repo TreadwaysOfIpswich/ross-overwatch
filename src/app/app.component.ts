@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 
 interface OverwatchCharacter {
-  name: 'dva' | 'soldier76' | 'winston' | 'reaper' | 'lucio' | 'mercy';
+  name: 'Dva' | 'Soldier76' | 'Winston' | 'Reaper' | 'Lucio' | 'Mercy';
   reasons: string[];
   preference: number;
+  image?: String;
 }
 
 @Component({
@@ -14,7 +15,7 @@ interface OverwatchCharacter {
 export class AppComponent {
   data: OverwatchCharacter[] = [
     {
-      name: 'dva',
+      name: 'Dva',
       preference: 1,
       reasons: [
         'I like to play D.Va, she is my main, because I am good at playing as her.',
@@ -22,9 +23,10 @@ export class AppComponent {
         'D.Va\'s ultimate is good at clearing the objective',
         'Her mechless form is also quite effective'
       ],
+      image: 'https://blzgdapipro-a.akamaihd.net/hero/dva/hero-select-portrait.png',
     },
     {
-      name: 'soldier76',
+      name: 'Soldier76',
       preference: 2,
       reasons: [
         'I also like to play Soldier 76, he is my main attack character.',
@@ -33,9 +35,10 @@ export class AppComponent {
         'His ultimate is very effective at clearing the objective'
 
       ],
+      
     },
     {
-      name: 'winston',
+      name: 'Winston',
       preference: 3,
       reasons: [
         'I like to play Winston, he is a very effective tank due to his shield.',
@@ -44,7 +47,7 @@ export class AppComponent {
       ],
     },
     {
-      name: 'reaper',
+      name: 'Reaper',
       preference: 4,
       reasons: [
         'Reaper is an effective character up close, able to kill tanks extremely quick',
@@ -54,7 +57,7 @@ export class AppComponent {
       ],
     },
     {
-      name: 'lucio',
+      name: 'Lucio',
       preference: 5,
       reasons: [
         'Lucio is a good healer, due to his abillity to heal his whole team at once',
@@ -64,7 +67,7 @@ export class AppComponent {
       ],
     },
     {
-      name: 'mercy',
+      name: 'Mercy',
       preference: 6,
       reasons: [
         'Mercy is a good healer, to her concentraited heals on one character',

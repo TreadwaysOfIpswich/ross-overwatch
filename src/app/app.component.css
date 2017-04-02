@@ -1,3 +1,116 @@
+body {
+	background: url("assets/58686_overwatch.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+@font-face {
+	font-family: bignoodletitling;
+	src: url('assets/bignoodletitling/big_noodle_titling.ttf');
+}
+
+* {
+  box-sizing: border-box;
+	font-family: bignoodletitling;
+}
+
+/*{
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}*/
+
+h1 {
+	font-size:100px;
+	text-align: center;
+}
+h2 {
+     font-size:55px;
+	 font-weight:bold;
+	 text-align: center;
+}
+p2 {
+   font-size:25px;
+   font-weight:bold;
+   text-align: center;
+}
+
+.characters {
+	text-align: center;
+}
+
 .character {
-  color: red;
+		display: inline-block;
+	  position: relative;
+	  top: 20px;
+		font-weight:bold;
+	  font-size:40px;
+	  border-style:solid;
+	  border-width:3px;
+	  border-radius:10px;
+	  margin: auto;
+	  width: 600px;
+	  height: 600px;
+	  padding: 30px;
+	  background-size: cover;
+}
+.list {
+  font-weight:normal;
+  font-size:20px;
+}
+.img {
+	position: relative;
+	/*top: 50px;*/
+	/*left: 200px;*/
+}
+
+.Dva {
+	color: fuchsia;
+	background: url("http://i.imgur.com/HsbBPmM.jpg") no-repeat center bottom;
+	background-clip: padding-box;
+	
+	
+}
+.Dva .list {
+	background-image: -webkit-linear-gradient(#00008B, black);
+}
+
+.Soldier76 {
+	color: midnightblue;
+	background: url("http://cdn.mos.cms.futurecdn.net/gaoQFbxd57e466VUg4KiVm.jpg") no-repeat center bottom;
+	background-clip: padding-box;
+}
+.Soldier76 .list {
+	background-image: -webkit-linear-gradient(#8B0000,black);
+}
+
+.Winston {
+	color: darkorange;
+	background: url("http://www.owfire.com/images/maps/kings-row-4.jpg") no-repeat center bottom;
+	background-clip: padding-box;
+}
+.Winston .list {
+	background-image: -webkit-linear-gradient(darkgreen,black);
+}
+.Reaper {
+color: black;
+background:url("https://blzgdapipro-a.akamaihd.net/media/screenshot/volskaya-screenshot-004.jpg") no-repeat center bottom;
+background-clip: padding-box;
+}
+.Reaper .list{
+	background-image: -webkit-linear-gradient(white,purple); 
+}
+.Lucio {
+	color:darkgreen;
+	background: url("https://s-media-cache-ak0.pinimg.com/originals/cd/70/da/cd70dac62b6c0e00f635d3c6f7af3538.jpg") no-repeat center bottom;
+  background-clip: padding-box;
+	}
+	.Lucio .list{
+		background-image: -webkit-linear-gradient(red,blue);
+	}
+.Mercy{
+	color: darkmagenta;
+ background: url("https://s-media-cache-ak0.pinimg.com/originals/1b/b3/dc/1bb3dcf659df4b7b56e10e66804e8f19.jpg");
+ background-clip: padding-box;
+}
+.Mercy .list {
+	background-image: -webkit-linear-gradient(black,gold)
 }
