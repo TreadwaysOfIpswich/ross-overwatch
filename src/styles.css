@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+	background: url("assets/58686_overwatch.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+}
