@@ -4,7 +4,7 @@ interface OverwatchCharacter {
   name: 'Dva' | 'Soldier76' | 'Winston' | 'Reaper' | 'Lucio' | 'Mercy';
   reasons: string[];
   preference: number;
-  image?: String;
+  image?: string;
 }
 
 @Component({
@@ -35,7 +35,6 @@ export class AppComponent {
         'His ultimate is very effective at clearing the objective'
 
       ],
-      
     },
     {
       name: 'Winston',

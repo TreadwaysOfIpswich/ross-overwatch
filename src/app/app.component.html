@@ -1,18 +1,13 @@
-<body>
-  <h1>Overwatch Favourites</h1>
-  <h2>Favourite characters</h2>
-  <ul>
-    <li *ngFor="let character of data" class="character {{character.name}}">
-      {{character.name}}
-      <ul *ngIf="character.reasons.length > 0">
-        <li *ngFor="let reason of character.reasons" class="list{{character.list}}">
-          {{reason}}
-        </li>
-      </ul>
-      <!--<img *ngFor="let image of character.image" class="img {{character.img}}">
-      {{character.img}}-->
-      
-    </li>
-  </ul>
-
-</body>
+<h1>Overwatch Favourites</h1>
+<h2>Favourite characters</h2>
+<ul>
+  <li *ngFor="let character of data" class="character {{character.name}}">
+    {{character.name}}
+    <ul *ngIf="character.reasons.length > 0" class="list">
+      <li *ngFor="let reason of character.reasons">
+        {{reason}}
+      </li>
+    </ul>
+    <img *ngIf="character.image" class="img" src="{{character.image}}">    
+  </li>
+</ul>
