@@ -1,3 +1,10 @@
-<h1>
-  {{data | json}}
-</h1>
+<ul>
+  <li *ngFor="let character of data" class="character {{character.name}}">
+    {{character.name}}
+    <ul *ngIf="character.reasons.length > 0">
+      <li *ngFor="let reason of character.reasons">
+        {{reason}}
+      </li>
+    </ul>
+  </li>
+</ul>
